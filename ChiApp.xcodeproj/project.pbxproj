@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C73DB9B1B29A0D700415598 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C73DB9A1B29A0D700415598 /* ReactView.m */; };
+		1C73DBA41B29B7BB00415598 /* RCTMaperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C73DBA31B29B7BB00415598 /* RCTMaperManager.m */; };
 		1CEC6B5F1B2994FE00D8B69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC6B5E1B2994FE00D8B69D /* main.m */; };
 		1CEC6B621B2994FE00D8B69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC6B611B2994FE00D8B69D /* AppDelegate.m */; };
 		1CEC6B651B2994FE00D8B69D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC6B641B2994FE00D8B69D /* ViewController.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C73DB991B29A0D700415598 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		1C73DB9A1B29A0D700415598 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		1C73DBA21B29B7BB00415598 /* RCTMaperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMaperManager.h; sourceTree = "<group>"; };
+		1C73DBA31B29B7BB00415598 /* RCTMaperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMaperManager.m; sourceTree = "<group>"; };
 		1CEC6B591B2994FE00D8B69D /* ChiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CEC6B5D1B2994FE00D8B69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CEC6B5E1B2994FE00D8B69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +110,10 @@
 				1CEC6B691B2994FE00D8B69D /* Images.xcassets */,
 				1CEC6B6B1B2994FE00D8B69D /* LaunchScreen.xib */,
 				1CEC6B5C1B2994FE00D8B69D /* Supporting Files */,
+				1C73DB991B29A0D700415598 /* ReactView.h */,
+				1C73DBA21B29B7BB00415598 /* RCTMaperManager.h */,
+				1C73DBA31B29B7BB00415598 /* RCTMaperManager.m */,
+				1C73DB9A1B29A0D700415598 /* ReactView.m */,
 			);
 			path = ChiApp;
 			sourceTree = "<group>";
@@ -277,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C73DB9B1B29A0D700415598 /* ReactView.m in Sources */,
 				1CEC6B651B2994FE00D8B69D /* ViewController.m in Sources */,
 				1CEC6B621B2994FE00D8B69D /* AppDelegate.m in Sources */,
 				1CEC6B5F1B2994FE00D8B69D /* main.m in Sources */,
+				1C73DBA41B29B7BB00415598 /* RCTMaperManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +386,7 @@
 				INFOPLIST_FILE = ChiApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,6 +430,7 @@
 				INFOPLIST_FILE = ChiApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
