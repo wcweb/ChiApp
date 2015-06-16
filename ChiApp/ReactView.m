@@ -19,12 +19,21 @@
 }
 */
 - (void)awakeFromNib {
-    NSString *urlString = @"http://localhost:8081/index.ios.includeRequire.runModule.bundle?dev=true";
-    NSURL *jsCodeLocation = [NSURL URLWithString:urlString];
-    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName: @"SimpleApp"
-                                                     launchOptions:nil];
-    [self addSubview:rootView];
-    rootView.frame = self.bounds;
+    
+    
+    
+//    NSString *urlString = @"http://localhost:8081/index.ios.includeRequire.runModule.bundle?dev=true";
+//    NSURL *jsCodeLocation = [NSURL URLWithString:urlString];
+//    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+//                                                        moduleName: @"SimpleApp"
+//                                                     launchOptions:nil];
+//    [self addSubview:rootView];
+//    rootView.frame = self.bounds;
+//    
+//    
+    
 }
+
+
+
 @end

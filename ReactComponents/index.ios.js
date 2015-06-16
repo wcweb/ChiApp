@@ -6,13 +6,13 @@ var {
   View
 } = React;
 
-var hello = require('LocalImage/empty.js');
+var hello = require('libs/empty.js');
 
 // var {LocalImage} = require('NativeModules');
-var LocalImage = require('LocalImage/maper.js');
+var Maper = require('libs/maper');
 // console.log(LocalImage);
 
-
+var LocalImage = require('libs/LocalImage');
 
 var styles = React.StyleSheet.create({
   container: {
@@ -24,7 +24,9 @@ var styles = React.StyleSheet.create({
 class SimpleApp extends React.Component {
   render() {
     return <View style={styles.container}>
+
         <Text>This is a simple application.{hello.hello}</Text>
+        <Maper />
         <LocalImage />
       </View>;
   }

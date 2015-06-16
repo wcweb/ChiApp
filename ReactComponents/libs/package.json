@@ -1,0 +1,7 @@
+{
+  "name": "libs",
+  "version": "0.0.1",
+  "private": true,
+  "file":["empty.js","maper.js"]
+
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C58CD7D1B2A7033001B4AA9 /* CALocalImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C58CD7C1B2A7033001B4AA9 /* CALocalImage.m */; };
+		1C58CD801B2A7C57001B4AA9 /* CALocalImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C58CD7F1B2A7C57001B4AA9 /* CALocalImageManager.m */; };
+		1C58CD821B2A8B05001B4AA9 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 1C58CD811B2A8B05001B4AA9 /* Assets */; };
 		1C73DB9B1B29A0D700415598 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C73DB9A1B29A0D700415598 /* ReactView.m */; };
 		1C73DBA41B29B7BB00415598 /* RCTMaperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C73DBA31B29B7BB00415598 /* RCTMaperManager.m */; };
 		1CEC6B5F1B2994FE00D8B69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC6B5E1B2994FE00D8B69D /* main.m */; };
@@ -30,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C58CD7B1B2A7033001B4AA9 /* CALocalImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CALocalImage.h; path = RCTNativeComponents/CALocalImage.h; sourceTree = "<group>"; };
+		1C58CD7C1B2A7033001B4AA9 /* CALocalImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CALocalImage.m; path = RCTNativeComponents/CALocalImage.m; sourceTree = "<group>"; };
+		1C58CD7E1B2A7C57001B4AA9 /* CALocalImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CALocalImageManager.h; path = RCTNativeComponents/CALocalImageManager.h; sourceTree = "<group>"; };
+		1C58CD7F1B2A7C57001B4AA9 /* CALocalImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CALocalImageManager.m; path = RCTNativeComponents/CALocalImageManager.m; sourceTree = "<group>"; };
+		1C58CD811B2A8B05001B4AA9 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		1C73DB991B29A0D700415598 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
 		1C73DB9A1B29A0D700415598 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
 		1C73DBA21B29B7BB00415598 /* RCTMaperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMaperManager.h; sourceTree = "<group>"; };
@@ -79,6 +87,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1C58CD7A1B2A6FEE001B4AA9 /* RCTNativeComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1C73DBA21B29B7BB00415598 /* RCTMaperManager.h */,
+				1C73DBA31B29B7BB00415598 /* RCTMaperManager.m */,
+				1C58CD7B1B2A7033001B4AA9 /* CALocalImage.h */,
+				1C58CD7C1B2A7033001B4AA9 /* CALocalImage.m */,
+				1C58CD7E1B2A7C57001B4AA9 /* CALocalImageManager.h */,
+				1C58CD7F1B2A7C57001B4AA9 /* CALocalImageManager.m */,
+			);
+			name = RCTNativeComponents;
+			sourceTree = "<group>";
+		};
 		1CEC6B4E1B2994D000D8B69D = {
 			isa = PBXGroup;
 			children = (
@@ -111,9 +132,9 @@
 				1CEC6B6B1B2994FE00D8B69D /* LaunchScreen.xib */,
 				1CEC6B5C1B2994FE00D8B69D /* Supporting Files */,
 				1C73DB991B29A0D700415598 /* ReactView.h */,
-				1C73DBA21B29B7BB00415598 /* RCTMaperManager.h */,
-				1C73DBA31B29B7BB00415598 /* RCTMaperManager.m */,
+				1C58CD7A1B2A6FEE001B4AA9 /* RCTNativeComponents */,
 				1C73DB9A1B29A0D700415598 /* ReactView.m */,
+				1C58CD811B2A8B05001B4AA9 /* Assets */,
 			);
 			path = ChiApp;
 			sourceTree = "<group>";
@@ -235,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CEC6B681B2994FE00D8B69D /* Main.storyboard in Resources */,
+				1C58CD821B2A8B05001B4AA9 /* Assets in Resources */,
 				1CEC6B6D1B2994FE00D8B69D /* LaunchScreen.xib in Resources */,
 				1CEC6B6A1B2994FE00D8B69D /* Images.xcassets in Resources */,
 			);
@@ -290,6 +312,8 @@
 				1C73DB9B1B29A0D700415598 /* ReactView.m in Sources */,
 				1CEC6B651B2994FE00D8B69D /* ViewController.m in Sources */,
 				1CEC6B621B2994FE00D8B69D /* AppDelegate.m in Sources */,
+				1C58CD7D1B2A7033001B4AA9 /* CALocalImage.m in Sources */,
+				1C58CD801B2A7C57001B4AA9 /* CALocalImageManager.m in Sources */,
 				1CEC6B5F1B2994FE00D8B69D /* main.m in Sources */,
 				1C73DBA41B29B7BB00415598 /* RCTMaperManager.m in Sources */,
 			);

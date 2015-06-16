@@ -1,0 +1,12 @@
+{
+  "name": "ChiApp-shinei",
+  "author": "",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "001.jpg",
+  "resoures": {
+    "2015": "2015.png",
+    "001": "001.png"
+  }
+}
