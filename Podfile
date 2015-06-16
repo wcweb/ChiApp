@@ -13,6 +13,8 @@ target 'ChiApp' do
   pod 'React/RCTActionSheet'
   pod 'React/RCTGeolocation'
   pod 'React/RCTImage'
+  # pod 'React/Touchable'
+  # pod 'React/TouchableHighlight'
   # pod 'React/RCTLinking'
   pod 'React/RCTNetwork'
   pod 'React/RCTSettings'

@@ -13,6 +13,7 @@ var Maper = require('libs/maper');
 // console.log(LocalImage);
 
 var LocalImage = require('libs/LocalImage');
+console.log(LocalImage);
 
 var styles = React.StyleSheet.create({
   container: {

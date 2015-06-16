@@ -17,12 +17,20 @@
 @synthesize bridge = _bridge;
 
 RCT_EXPORT_MODULE()
+RCT_CUSTOM_VIEW_PROPERTY(src, NSURL, CALocalImage)
+{
+    [RCTConvert NSURL:json];
+}
 
+RCT_EXPORT_METHOD(downloadBook)
+{
+    RCTLogInfo(@"Pretending to downloadBook");
+}
 
 - (UIView *) view
 {
     CALocalImage   *calocalimage = [[CALocalImage alloc] init];
-    
+//    [calocalimage downloadBook];
     return calocalimage;
 }
 
@@ -43,8 +51,6 @@ RCT_EXPORT_MODULE()
 //RCT_EXPORT_VIEW_PROPERTY(on, BOOL);
 //RCT_EXPORT_VIEW_PROPERTY(enabled, BOOL);
 
-RCT_CUSTOM_VIEW_PROPERTY(src, NSURL, CALocalImage)
-{
-  [RCTConvert NSURL:json];
-}
+
+
 @end
