@@ -10,4 +10,7 @@
 
 @interface CALocalImageManager : RCTViewManager
 
+
+-(void)testDownLoad;
+
 @end

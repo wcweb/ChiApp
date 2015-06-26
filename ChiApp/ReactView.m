@@ -22,10 +22,10 @@
     
     
     
-    NSString *urlString = @"http://localhost:8081/index.ios.includeRequire.runModule.bundle?dev=true";
+    NSString *urlString = @"http://localhost:8081/index.ios.bundle?dev=true";
     NSURL *jsCodeLocation = [NSURL URLWithString:urlString];
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName: @"SimpleApp"
+                                                        moduleName: @"ChiApp"
                                                      launchOptions:nil];
     [self addSubview:rootView];
     rootView.frame = self.bounds;

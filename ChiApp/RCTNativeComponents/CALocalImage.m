@@ -22,8 +22,7 @@
 {
 //    return [[MKMapView alloc] init];
     
-    tempDir = @"/testDemo";
-    return [[UIView alloc] init];
+       return [[UIView alloc] init];
     
 }
 
@@ -35,6 +34,7 @@
     NSURL *urlPath = [NSURL URLWithString:filePath];
     return urlPath;
 }
+
 
 
 
@@ -52,6 +52,7 @@
 #pragma fetchJson->handleJson
 - (void)downloadBook {
     
+    tempDir = @"/testDemo";
     
     if([FCFileManager isDirectoryItemAtPath:tempDir]){
         [FCFileManager removeItemsInDirectoryAtPath:tempDir];
